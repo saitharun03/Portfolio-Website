@@ -1,0 +1,312 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e2e2e2;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+    padding: 10px;
+    background: #888;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body{
+    font-family: 'roboto';
+    background-image: url("Images/Backgournd\ image.jpg");
+    background-repeat: cover;
+    background-size: cover;
+    backdrop-filter: Blur(.5px);
+}
+
+#header{                       /*---------Header---------*/
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.105);
+    backdrop-filter: Blur(5px);
+    width: 100%;
+}
+
+#header nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#header nav a{
+    color: rgb(9, 255, 0);
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 4px;
+    padding: 5px 25px 5px 25px;
+    font-size: 20px;
+    
+}
+
+#header nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+#header nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 25px 5px 25px;
+    margin: 1px;
+    border: 0.5px solid rgba(255, 255, 255, 0);
+}
+
+#header nav ul li a:hover{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 25px 5px 25px;
+    border: 0.5px solid rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+/*-----------Home should start from here-------------*/
+
+#home #main{
+    margin: auto;
+    width: 50%;
+    margin-top: 10%;
+    padding: 5%;
+    
+}
+
+#home #main #welcome_text{
+    padding: 2%;
+    letter-spacing: 50px;
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+#home #main #intro_text{
+    padding: 2%;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+#home #main #scroll_down_text{
+    margin: 5%;
+    letter-spacing: 5px;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(0, 187, 255);
+    word-spacing: 5px;
+}
+
+#activities{                                          /*-----Activites--------*/
+    margin: 5%;
+    padding: 1%;
+    color: #fff;
+}
+
+#activities #activities_txt{
+    padding: 1%;
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.286);
+}
+
+#activities #activities_txt p{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+#activities #no_activites{
+    font-size: 20px;
+    padding: 0px 10px 10px 10px;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+
+#activities #activites_btns{
+    padding: 25px 0px 20px 0px;
+}
+
+#activities #activites_btns ul li{
+    display: inline;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#activities #activites_btns button{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 30%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 3px 10px 0 rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+}
+
+#activities #activites_btns button:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    transition: .05s;
+}
+
+#activities #activites_btns button #title{
+    padding: 25px 10px 25px 10px;
+    margin: 0px 15px 0px 15px;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    border-bottom: 0.5px solid #fff;
+    
+}
+
+#activities #activites_btns button #description{
+    padding: 25px 10px 25px 10px;
+    font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin: 0px 1px 0px 1px;
+    text-align: left;
+}
+
+#stem{                                          /*-----STEM--------*/
+    margin: 5%;
+    padding: 1%;
+    color: #fff;
+}
+
+#stem #title{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.286);
+    word-spacing: 5px;
+    letter-spacing: 10px;
+}
+
+#stem #description{
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+
+#projects{          /*------projects-----*/
+    margin: 5%;
+    padding: 1%;
+    color: #fff;
+}
+
+#projects #title_txt{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.286);
+    letter-spacing: 10px;
+}
+
+#projects #description_txt{
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+
+#projects #projects_btns{
+    padding: 100px;
+    width: auto;
+}
+
+#projects #projects_btns ul li{
+    display: inline;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#projects #projects_btns button{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(124, 124, 124);
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 45%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 3px 10px 0 rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+}
+
+#projects #projects_btns button:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    transition: .05s;
+}
+
+#projects #projects_btns button #title{
+    padding: 25px 10px 25px 10px;
+    margin: 0px 15px 0px 15px;
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    border-bottom: 0.5px solid #fff;
+    
+}
+
+#projects #projects_btns button #description{
+    padding: 25px 15px 25px 15px;
+    font-size: 15px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    margin: 0px 1px 0px 1px;
+    text-align: left;
+}
+
+#conclusion{                                          /*-----STEM--------*/
+    margin: 5%;
+    padding: 1%;
+    color: #fff;
+}
+
+#conclusion #title{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.286);
+    word-spacing: 5px;
+    letter-spacing: 10px;
+}
+
+#conclusion #description{
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    line-height: 30px;
+    word-spacing: 5px;
+}
+
